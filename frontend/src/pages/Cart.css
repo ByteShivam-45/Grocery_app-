@@ -1,0 +1,31 @@
+.page {
+  padding: 2rem 0 4rem;
+}
+
+.summary {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.summaryTotal {
+  font-size: 1.25rem;
+}
+
+.summaryTotal span {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

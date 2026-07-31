@@ -1,0 +1,146 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Organic Bananas",
+    "description": "Fresh organic bananas, perfect for smoothies or snacking.",
+    "price": 1.29,
+    "category": "Fruits",
+    "imageUrl": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&h=300&fit=crop",
+    "stock": 50
+  },
+  {
+    "id": "prod-002",
+    "name": "Red Apples",
+    "description": "Crisp and sweet red apples, locally sourced.",
+    "price": 2.49,
+    "category": "Fruits",
+    "imageUrl": "https://images.unsplash.com/photo-1568702842514-96c305675b51?w=400&h=300&fit=crop",
+    "stock": 40
+  },
+  {
+    "id": "prod-003",
+    "name": "Fresh Strawberries",
+    "description": "Juicy strawberries packed with flavor.",
+    "price": 3.99,
+    "category": "Fruits",
+    "imageUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400&h=300&fit=crop",
+    "stock": 25
+  },
+  {
+    "id": "prod-004",
+    "name": "Whole Milk",
+    "description": "Farm-fresh whole milk, 1 gallon.",
+    "price": 3.49,
+    "category": "Dairy",
+    "imageUrl": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&h=300&fit=crop",
+    "stock": 30
+  },
+  {
+    "id": "prod-005",
+    "name": "Greek Yogurt",
+    "description": "Creamy plain Greek yogurt, high in protein.",
+    "price": 4.99,
+    "category": "Dairy",
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop",
+    "stock": 35
+  },
+  {
+    "id": "prod-006",
+    "name": "Cheddar Cheese",
+    "description": "Sharp aged cheddar cheese block, 8 oz.",
+    "price": 5.49,
+    "category": "Dairy",
+    "imageUrl": "https://images.unsplash.com/photo-1618164436241-4473940d1f06?w=400&h=300&fit=crop",
+    "stock": 20
+  },
+  {
+    "id": "prod-007",
+    "name": "Fresh Spinach",
+    "description": "Organic baby spinach, pre-washed and ready to use.",
+    "price": 2.99,
+    "category": "Vegetables",
+    "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&h=300&fit=crop",
+    "stock": 45
+  },
+  {
+    "id": "prod-008",
+    "name": "Cherry Tomatoes",
+    "description": "Sweet cherry tomatoes on the vine.",
+    "price": 3.29,
+    "category": "Vegetables",
+    "imageUrl": "https://images.unsplash.com/photo-1592920330159-e2821a0f0b0a?w=400&h=300&fit=crop",
+    "stock": 30
+  },
+  {
+    "id": "prod-009",
+    "name": "Broccoli Crowns",
+    "description": "Fresh broccoli crowns, rich in vitamins.",
+    "price": 2.79,
+    "category": "Vegetables",
+    "imageUrl": "https://images.unsplash.com/photo-1459411621453-7bb039775b9f?w=400&h=300&fit=crop",
+    "stock": 28
+  },
+  {
+    "id": "prod-010",
+    "name": "Sourdough Bread",
+    "description": "Artisan sourdough loaf, baked daily.",
+    "price": 4.49,
+    "category": "Bakery",
+    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop",
+    "stock": 15
+  },
+  {
+    "id": "prod-011",
+    "name": "Whole Wheat Bread",
+    "description": "Soft whole wheat sandwich bread.",
+    "price": 3.29,
+    "category": "Bakery",
+    "imageUrl": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=400&h=300&fit=crop",
+    "stock": 22
+  },
+  {
+    "id": "prod-012",
+    "name": "Brown Rice",
+    "description": "Long grain brown rice, 2 lb bag.",
+    "price": 3.99,
+    "category": "Pantry",
+    "imageUrl": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+    "stock": 60
+  },
+  {
+    "id": "prod-013",
+    "name": "Extra Virgin Olive Oil",
+    "description": "Cold-pressed olive oil, 500ml bottle.",
+    "price": 8.99,
+    "category": "Pantry",
+    "imageUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=300&fit=crop",
+    "stock": 18
+  },
+  {
+    "id": "prod-014",
+    "name": "Organic Eggs",
+    "description": "Free-range organic eggs, dozen.",
+    "price": 5.99,
+    "category": "Dairy",
+    "imageUrl": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400&h=300&fit=crop",
+    "stock": 40
+  },
+  {
+    "id": "prod-015",
+    "name": "Orange Juice",
+    "description": "Freshly squeezed orange juice, 64 fl oz.",
+    "price": 4.29,
+    "category": "Beverages",
+    "imageUrl": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=300&fit=crop",
+    "stock": 25
+  },
+  {
+    "id": "prod-016",
+    "name": "Sparkling Water",
+    "description": "Naturally flavored sparkling water, 12-pack.",
+    "price": 6.49,
+    "category": "Beverages",
+    "imageUrl": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&h=300&fit=crop",
+    "stock": 35
+  }
+]
