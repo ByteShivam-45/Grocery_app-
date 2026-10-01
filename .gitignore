@@ -1,5 +1,8 @@
-﻿node_modules/
+﻿node_modules
+backend/node_modules
+frontend/node_modules
+dist
 .env
-dist/
-.vscode/
+.env.local
 .DS_Store
+Thumbs.db
