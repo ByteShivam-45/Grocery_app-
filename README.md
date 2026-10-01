@@ -1,54 +1,127 @@
-# FreshMart Grocery App
+# 🛒 FreshMart Grocery App
 
-A full-stack grocery shopping application where users can browse products, manage a cart, and place orders.
+A full-stack grocery shopping application where users can browse products, manage their cart, and place orders.
 
-## Tech Stack
+## 📸 Project Preview
 
-- **Frontend:** React + Vite (port 5173)
-- **Backend:** Node.js + Express (port 3001)
-- **Storage:** In-memory (resets on server restart)
+<p align="center">
+  <img src="./preview.png" alt="FreshMart Grocery App Preview" width="900">
+</p>
 
-## Quick Start
+## 🚀 Tech Stack
+
+- **Frontend:** React + Vite
+- **Backend:** Node.js + Express
+- **Storage:** In-memory storage
+- **API:** REST API
+- **Session Management:** Browser LocalStorage
+- **Frontend Port:** 5173
+- **Backend Port:** 3001
+
+## ✨ Features
+
+- 🛍️ Browse 16 grocery products across 6 categories
+- 🔎 Filter products by category
+- 🛒 Add products to cart
+- 📦 Stock validation
+- ➕ Update item quantities
+- ❌ Remove items from cart
+- 💳 Checkout with customer details
+- 📍 Enter delivery address
+- ✅ Order confirmation with order ID
+- 🔐 Cart sessions tracked using `X-Session-Id`
+- 📱 Responsive user interface
+
+## ⚙️ Quick Start
+
+### 1. Clone the repository
 
 ```bash
-# Install all dependencies
-npm run install:all
+git clone https://github.com/ByteShivam-45/Grocery_app-.git
+```
 
-# Start both backend and frontend
+### 2. Navigate to the project
+
+```bash
+cd Grocery_app-
+```
+
+### 3. Install dependencies
+
+```bash
+npm run install:all
+```
+
+### 4. Start the application
+
+```bash
 npm run dev
 ```
 
-Then open **http://localhost:5173** in your browser.
+The application will start with:
 
-## Features
+- Frontend → `http://localhost:5173`
+- Backend → `http://localhost:3001`
 
-- Browse 16 grocery products across 6 categories
-- Filter products by category
-- Add items to cart with stock validation
-- Update quantities and remove items
-- Checkout with name and delivery address
-- Order confirmation with order ID
+Open the frontend in your browser:
 
-## API Endpoints
+```text
+http://localhost:5173
+```
+
+## 🔌 API Endpoints
 
 | Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/products` | List products |
-| GET | `/api/products/:id` | Get single product |
+|---|---|---|
+| GET | `/api/products` | Get all products |
+| GET | `/api/products/:id` | Get a single product |
 | GET | `/api/cart` | Get cart |
-| POST | `/api/cart/items` | Add to cart |
-| PATCH | `/api/cart/items/:productId` | Update quantity |
-| DELETE | `/api/cart/items/:productId` | Remove item |
-| POST | `/api/orders` | Place order |
-| GET | `/api/orders/:id` | Get order |
+| POST | `/api/cart/items` | Add item to cart |
+| PATCH | `/api/cart/items/:productId` | Update item quantity |
+| DELETE | `/api/cart/items/:productId` | Remove item from cart |
+| POST | `/api/orders` | Place an order |
+| GET | `/api/orders/:id` | Get order details |
 
-Cart sessions are tracked via the `X-Session-Id` header (stored in browser localStorage).
+> Cart sessions are tracked using the `X-Session-Id` header, which is stored in the browser's LocalStorage.
 
-## Project Structure
+## 📂 Project Structure
 
+```text
+Grocery_app-/
+│
+├── backend/
+│   └── Express API
+│
+├── frontend/
+│   └── React + Vite application
+│
+├── preview.png
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
 ```
-grocery-app/
-├── backend/          # Express API
-├── frontend/         # React + Vite UI
-└── package.json      # Root scripts
+
+## 💾 Data Storage
+
+The application currently uses **in-memory storage** for products, carts, and orders.
+
+> Data will reset whenever the backend server is restarted.
+
+## 🌐 Live Demo
+
+Add your deployed frontend URL here:
+
+```text
+https://your-live-url.vercel.app
 ```
+
+## 👨‍💻 Author
+
+**Shivam Bhardwaj**
+
+- GitHub: [ByteShivam-45](https://github.com/ByteShivam-45)
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
